@@ -6,15 +6,7 @@ import {
   getDocs,
   addDoc,
 } from "firebase/firestore/lite";
-const firebaseConfig = {
-  apiKey: "AIzaSyAlOrsKxCYJMcOXmrFSX08RPeweyre6_n8",
-  authDomain: "glearn-webextension.firebaseapp.com",
-  databaseURL: "https://glearn-webextension-default-rtdb.firebaseio.com",
-  projectId: "glearn-webextension",
-  storageBucket: "glearn-webextension.appspot.com",
-  messagingSenderId: "633343675352",
-  appId: "1:633343675352:web:518a7bb3fc1a66578f00ad",
-};
+const firebaseConfig = {//firebase config};
 
 import puppeteer from "puppeteer";
 const loginLink = "https://login.gitam.edu/Login.aspx";
