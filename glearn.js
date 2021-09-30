@@ -10,8 +10,8 @@ const firebaseConfig = {//firebase config};
 
 import puppeteer from "puppeteer";
 const loginLink = "https://login.gitam.edu/Login.aspx";
-const username = "121910302022";
-const password = "69YHHC@3";
+const username = "rollnumber";
+const password = "";
 
 //initialize
 let browerOpen = puppeteer.launch({
